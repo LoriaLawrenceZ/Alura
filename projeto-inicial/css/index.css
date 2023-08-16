@@ -1,0 +1,104 @@
+.logo{
+    width: 500px;
+}
+
+body{
+    background-color: #333B1E;
+    font-family: 'Barlow', sans-serif;
+}
+main{
+    height: 100vh;
+}
+
+.container-banner{
+    width: 100%;
+    height: 80%;
+    background-image: url("../img/banner-site.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-texto-banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+
+.container-banner h1,p{
+    color: #FFFFFF;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    margin: 20px 0px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+.container-cafe-manha, .container-almoco{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-cafe-manha-titulo, .container-almoco-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-cafe-manha-titulo h3, .container-almoco-titulo h3{
+    font-size: 32px;
+    color: #EBC181;
+    text-align: center;
+    margin: 15px 0px 5px;
+}
+
+.container-cafe-manha-produtos, .container-almoco-produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid #EBC181 2px;
+    overflow: hidden;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.container-produto img{
+    width: 350px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.container-produto p{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.container-produto p:nth-child(4){
+    color: #9B8357;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-produto p:nth-child(2){
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ornaments{
+    width: 200px;
+}
+
