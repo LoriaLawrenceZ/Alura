@@ -1,3 +1,8 @@
+<?php
+    // var_dump() -> exibe todas as informações da variável [nome, valor, metadados etc.]
+    var_dump(date("H:i:s"));
+?>
+
 <!doctype html>
 <html lang="pt-br">
 <head>
