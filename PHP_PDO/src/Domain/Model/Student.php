@@ -5,7 +5,7 @@ namespace Alura\Pdo\Domain\Model;
 class Student
 {
     //-----===Atributos===-----//
-    private ?int $id;
+    private ?int $id; //  ?int  -> Can be Integer or Null
     private string $name;
     private \DateTimeInterface $birthDate;
 
@@ -37,6 +37,6 @@ class Student
     //Método pra calcular idade
     public function age(): int
     {
-        return $this->birthDate ->diff(new \DateTimeImmutable()) ->y;
+        return $this->birthDate->diff(new \DateTimeImmutable())->y;
     }
 }
