@@ -1,0 +1,12 @@
+.card{
+  passing: 24px;
+  &.primary{
+    background-color: white;
+    border: solid 1px lightgray;
+    border-radius: 12px;
+  }
+  &.secondary{
+    background-color: white;
+    border-radius: 16px;
+  }
+}
