@@ -1,5 +1,5 @@
 /*Vai aplicar o estilo ao container (componente de fora), e não seus componentes internos*/
-:host /*Seleciona o hospedeiro, o de fora apenas*/{
+:host /*Seleciona o hospedeiro, o componente de fora*/{
   display: block;
   margin: 0 auto;
   max-width: 1048px;

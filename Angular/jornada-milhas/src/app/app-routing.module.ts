@@ -1,5 +1,7 @@
+// Imports
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+// Import dos componentes criados
 import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [

@@ -6,5 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
-  @Input() variant: 'primary' | 'secondary' = 'primary';
+  // 'variant' como propriedade de entrada onde ela pode ter 2 possibilidades. Caso nenhuma seja especificada, ela tem 'primary' como default
+  @Input() variant: 'primary' | 'secondary' = 'primary'; // 'Union types'
 }

@@ -1,5 +1,7 @@
 .card{
-  passing: 24px;
+  padding: 24px;
+
+  // Estilo vai ser aplicado a quem tiver ' .card ' E ' .primary '
   &.primary{
     background-color: white;
     border: solid 1px lightgray;
